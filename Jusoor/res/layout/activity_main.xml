@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#990000">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Jusoor!"
+        android:textSize="28dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold|italic"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"/>
+
+    
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:ems="10"
+        android:layout_marginBottom="40dp"
+        android:textSize="22dp"
+        android:textColor="#FFFFFF" 
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:text="You may visit out website at the link below!"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:text="jusoorsyria.com"
+        android:textColor="#0000FF" />
+
+    <Button
+        android:id="@+id/btContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#282828"
+        android:text="Continue"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#282828"
+        android:text="Logout"
+        android:textColor="#FFFFFF" />
+    
+</LinearLayout>

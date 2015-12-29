@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#990000">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jusoor"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold|italic" 
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username" 
+        android:textColor="#FFFFFF"
+        android:paddingTop="15dp"
+        android:layout_marginTop="60dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/password"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/signin" />
+
+    
+
+    <TextView 
+        android:id="@+id/registerLink"
+        android:layout_width="wrap_content"
+        android:text="Register Here"
+        android:textStyle="bold"
+        android:textColor="#3333FF"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+    
+</LinearLayout>
